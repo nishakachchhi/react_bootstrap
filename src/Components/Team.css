@@ -1,0 +1,44 @@
+.team-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  height: calc(100% - 38px);
+  transition: 0.5s;
+}
+
+.team-item h5 {
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  color: #0f172b !important;
+}
+
+.zoom-in img {
+  transform: scale(1) !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.zoom-in:hover img {
+  transform: scale(1.1) !important;
+}
+
+.team-item:hover {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08) !important;
+  /*height: calc(100% - 1px);*/
+  height: 100% !important;
+  transition: 0.5s !important;
+}
+
+.team-item i {
+  color: white !important;
+}
+
+.btn-square {
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: normal !important;
+  width: 38px !important;
+  height: 38px !important;
+  background: #fea116 !important;
+  border-color: #fea116 !important;
+  border-radius: 38px 38px 0 0 !important;
+}

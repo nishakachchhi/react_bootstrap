@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@300;400&family=Poppins:wght@200;600;700&family=Roboto+Slab:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    color: #666565 !important;
+    font-weight: 500 !important;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+}
+/* <!-- =============================================== Navigation Bar =============================================== --> */
+
+h1 {
+    color: #FEA116 !important;
+}
+
+h1 span {
+    color: #FEA116 !important;
+}
+
+.navbar {
+    padding-top: -0.5rem !important;
+   
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 90px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    padding: 20px 0 !important;
+    transition: background-color 0.5s ease !important;
+    z-index: 1;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1 .material-symbols-outlined {
+    font-size: 43px !important;
+    font-weight: bold !important;
+}
+
+.nav-link {
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    margin: 0 5px !important;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #FEA116 !important;
+}
+
+.book-table {
+    color: white !important;
+    background-color: #FEA116 !important;
+    padding: 10px 20px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.book-table:hover {
+    background-color: #ffc107 !important;
+}
+
+.active {
+    background-color: #0F172B !important;
+}
+
+.active a:hover {
+    color: #fff !important;
+}
+
+.dropdown-item:active{
+    background-color: #FEA116 !important;
+    color: white !important;
+}
+
+.dropdown-item:hover{
+    background-color: #FEA116 !important;
+    color: white !important;
+}
+
+.dropdown-item{
+    color: #0F172B !important;
+}
+
+.bg{
+    background-color: #FEA116 !important;
+    color: white !important;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+}

@@ -1,0 +1,70 @@
+.btn.btn-link {
+    display: block !important;
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+    text-align: left !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    text-transform: capitalize !important;
+    transition: .3s !important;
+}
+.btn.btn-link i{
+    color: white !important;
+}
+.f-resto:hover{
+    letter-spacing: 1.5px !important;
+}
+.f-cont p{
+    color: white !important;
+}
+.f-cont i{
+    color: white !important;
+    font-size: 18px !important;
+}
+.btn.btn-social {
+    margin-right: 5px !important;
+    width: 35px !important;
+    height: 35px !important;
+    display: flex !important;
+    align-items: center !important; 
+    justify-content: center !important;
+    color: #F1F8FF !important; 
+    border: 1px solid white !important;
+    border-radius: 35px !important;
+    transition: .3s !important;
+}
+.btn.btn.btn-social i{
+    color: white !important;
+}
+.btn.btn-social:hover{
+    background-color: white !important;
+}
+.btn.btn-social:hover i{
+    color: #FEA116 !important;
+}
+.text-light {
+    color: #F1F8FF !important;
+}
+.btn.btn-primary, .btn.btn-secondary {
+    color: white !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+.btn-primary{
+    background-color: #FEA116 !important;
+    border: #FEA116 !important;
+}
+.copyright{
+    padding: 25px 0 !important;
+    font-size: 15px !important;
+    border-top: 1px solid rgba(256, 256, 256, .1) !important;
+}
+.copyright a{
+    color: #F1F8FF !important;
+}
+.footer-menu a {
+    margin-right: 15px !important;
+    padding-right: 15px !important;
+    border-right: 1px solid rgba(255, 255, 255, .1) !important;
+}

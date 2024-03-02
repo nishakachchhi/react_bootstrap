@@ -1,0 +1,36 @@
+.btn-book {
+    background-color: #FEA116 !important;
+    border-color: #FEA116 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+.btn-book:hover {
+    background-color: #ffc107 !important;
+}
+
+.hero-header {
+    background-image: linear-gradient(rgba(15, 13, 43, 0.9), rgba(15, 23, 43, 0.9)), url(/public/asset/img/bg-hero.jpg) !important;
+       /* background-image: url(/public/asset/img/bg-hero.jpg) !important; */
+    background-origin: border-box !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.hero-header img {
+    animation: imgrotate 50s linear infinite !important;
+}
+
+@keyframes imgrotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-content {
+    padding-top: 100px !important;
+    font-size: 60px !important;
+    font-weight: bolder !important;
+}

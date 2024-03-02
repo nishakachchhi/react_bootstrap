@@ -1,0 +1,83 @@
+/* <!-- ============================================  Menu Section ============================================ --> */
+
+.item-active {
+    display: block !important;
+}
+
+.text-primary {
+    color: #FEA116 !important;
+    font-weight: bold !important;
+}
+
+h5 span {
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: #0F172B !important;
+}
+
+.section-title {
+    position: relative !important;
+    display: inline-block !important;
+    color: #FEA116 !important;
+}
+
+.section-title::before {
+    position: absolute !important;
+    content: "" !important;
+    width: 45px !important;
+    height: 2px !important;
+    top: 50% !important;
+    left: -55px !important;
+    margin-top: -1px !important;
+    background-color: #FEA116 !important;
+}
+
+.section-title::after {
+    position: absolute !important;
+    content: "" !important;
+    width: 45px !important;
+    height: 2px !important;
+    top: 50% !important;
+    right: -55px !important;
+    margin-top: -1px !important;
+    background-color: #FEA116 !important;
+}
+
+.h2-Popular {
+    color: #0F172B !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.2 !important;
+}
+
+.Popular-active {
+    border-bottom: 2px solid #FEA116 !important;
+}
+
+.nav {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h6 {
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: #0F172B !important;
+}
+
+.nav-pills i {
+    color: #FEA116 !important;
+    font-size: 40px !important;
+}
+
+.nav-pills span {
+    color: #FEA116 !important;
+    font-size: 40px !important;
+}
+
+.text-body {
+    color: #666565 !important;
+}
